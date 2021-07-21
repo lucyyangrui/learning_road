@@ -1,5 +1,7 @@
 pytorch/data_cifar
+pytorch/data_mnist
 pytorch/.ipynb_checkpoints
+pytorch/digit-recognizer
 .idea
 mydjango/venv
 mydjango/.idea
