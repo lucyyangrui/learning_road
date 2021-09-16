@@ -245,7 +245,7 @@ for epoch in range(180):
         # print(input_ids.size(0))
         input_ids, segment_ids, masked_pos = input_ids.to(device), segment_ids.to(device), masked_pos.to(device)
         logits_lm, logits_clsf = model(input_ids, segment_ids, masked_pos)
-        loss_lm = criterion(logits_lm.view(-1, vocab_size), masked_tokens.view(-1)) # for masked LM
+        loss_lm = criterion(logits_lm.view(-1, vocab_size), masked_tokens.view(-1).to(device)) # for masked LM
         loss_lm = (loss_lm.float()).mean()
         loss_clsf = criterion(logits_clsf, isNext.to(device)) # for sentence classification
         loss = loss_lm + loss_clsf
