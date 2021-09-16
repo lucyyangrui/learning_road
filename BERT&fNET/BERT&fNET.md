@@ -58,7 +58,11 @@ text = (
 
 训练过程的损失：
 
+<<<<<<< HEAD
 <img src="..\pic\bert_gpu_loss.png" alt="bert_gpu_loss" style="zoom:100%;" />
+=======
+![bert_gpu_loss](..\pic\bert_gpu_loss.png)
+>>>>>>> 1813aa41186fc782586c29a07db75a61ac1af956
 
 ----
 
@@ -68,7 +72,11 @@ text = (
 
 训练过程的损失：
 
+<<<<<<< HEAD
 <img src="..\pic\fNET_gpu_loss.png" alt="fNET_gpu_loss" style="zoom:100%;" />
+=======
+![fNET_gpu_loss](..\pic\fNET_gpu_loss.png)
+>>>>>>> 1813aa41186fc782586c29a07db75a61ac1af956
 
 -----
 
